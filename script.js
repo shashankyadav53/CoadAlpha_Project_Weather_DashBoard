@@ -32,19 +32,19 @@ async function checkWeather(city){
 
     switch(weather_data.weather[0].main){
         case 'Cloud':
-            weather_img.src = "/WeatherImg/cloud.png";
+            weather_img.src = "./WeatherImg/cloud.png";
             break;
         case 'Clear':
-            weather_img.src = "/WeatherImg/clear.png";
+            weather_img.src = "./WeatherImg/clear.png";
             break;
         case 'Rain':
-            weather_img.src = "/WeatherImg/rain.png";
+            weather_img.src = "./WeatherImg/rain.png";
             break;
         case 'Mist':
-            weather_img.src = "/WeatherImg/mist.png";
+            weather_img.src = "./WeatherImg/mist.png";
             break;
         case 'Snow':
-            weather_img.src = "/WeatherImg/snow.png";
+            weather_img.src = "./WeatherImg/snow.png";
             break;
     }
 
